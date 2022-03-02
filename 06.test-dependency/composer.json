@@ -1,0 +1,24 @@
+{
+    "name": "whatzittooya/03.membuat-unit-test",
+    "description": "Belajar PHP Unit Test (Test Dependency)",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ali Nurdin",
+            "email": "alinurdin159@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "PHPUnit\\Test\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "PHPUnit\\Test\\": "tests"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
