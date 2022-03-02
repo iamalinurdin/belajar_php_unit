@@ -1,0 +1,29 @@
+{
+    "name": "whatzittooya/03.membuat-unit-test",
+    "description": "Belajar PHP Unit Test (Data Provider)",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ali Nurdin",
+            "email": "alinurdin159@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "PHPUnit\\Test\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "PHPUnit\\Test\\": "tests"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+      "test": "phpunit --configuration phpunit.xml",
+      "test:counter": "phpunit --configuration phpunit.xml --testsuite counter",
+      "test:math": "phpunit --configuration phpunit.xml --testsuite math"
+    }
+}
